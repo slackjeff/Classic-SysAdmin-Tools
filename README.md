@@ -3,3 +3,8 @@ Bash Scripts for consistent settings across servers. Tests are based on Slackwar
 
 ### 01-ssh_config.sh
 This script does a basic security configuration for SSH servers. It uses keys to login. So before running it create your key and send it to the server and run the script.
+
+```
+$ ssh-keygen
+$ ssh-copy-id username@remote_host
+```
