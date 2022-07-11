@@ -16,11 +16,6 @@
 
 file='/etc/ssh/sshd_config'
 
-# Only listed users will be able to login.
-# Use space to separate them. Example:
-# AllowUsers='user1 user2 user3 user4'
-AllowUsers="slackjeff"
-
 #############################
 # Functions
 #############################
